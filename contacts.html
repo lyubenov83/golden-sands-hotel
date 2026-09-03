@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <meta name="description" content="Контакти, местоположение и форма за връзка 
+    с хотелски комплекс Златни пясъци.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Хотелски комплекс Златни пясъци</h1>
+        <p>Golden Sands Resort hotel</p>
+        
+    <nav>
+        <a href="index.html">Начало</a>
+        <a href="about.html">За хотела</a>
+        <a href="rooms.html">Стаи и услуги</a>
+        <a href="news.html">Новини и оферти</a>
+        <a href="gallery.html">Галерия</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Контакти</h2>
+
+            <p>
+            Свържете се с хотелски комплекс "Златни пясъци"
+            за информация относно настаняване и услуги.
+            </p>
+        </section>
+
+        <section>
+            <h2>Информация за контакт</h2>
+
+            <p>Адрес: гр. Варна, крайбрежна зона</p>
+            <p>Телефон: +359 52 100 200</p>
+            <p>Имейл: info@goldensandshotel.bg</p>
+        </section>
+
+        <section>
+            <h2>Форма за контакт</h2>
+
+            <form>
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Изпрати</button>
+                
+                <p id="formMessage"></p>
+            </form>
+        </section>
+            
+            <section>
+                <h2>Местоположение</h2>
+                <iframe
+                class="map"
+                src="https://www.google.com/maps?q=Varna%20Bulgaria&output=embed"
+                loading="lazy">
+                </iframe>
+            </section>
+    </main>
+
+    <footer>
+        <p>Хотелски комплекс Златни пясъци</p>
+
+        <p>
+            <a href="index.html">Начало</a>
+            <a href="contacts.html">Контакти</a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
